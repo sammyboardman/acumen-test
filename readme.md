@@ -1,14 +1,17 @@
 ### Description
 This is an express app that is used to manage student enrollments for courses,
 it can 
+- create user
+- activate user account
+- login a user
 - list enrollments.
 - add a new enrollment. 
 - delete an existing student enrollment.
 
-## POSTMAN
+#### Postman
 - https://www.getpostman.com/collections/15e1c4a2443e0bb9a39d
 
-## Docker Hub
+#### Docker Hub
 - https://hub.docker.com/r/boardmandocker/acumen-students
 
 The application uses [express](https://expressjs.com/ "expressjs's Website") ,
