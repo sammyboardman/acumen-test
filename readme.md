@@ -8,7 +8,8 @@ it can
 ## POSTMAN
 - https://www.getpostman.com/collections/15e1c4a2443e0bb9a39d
 
-
+## Docker Hub
+- https://hub.docker.com/r/boardmandocker/acumen-students
 
 The application uses [express](https://expressjs.com/ "expressjs's Website") ,
  [firestore](https://firebase.google.com/docs/firestore "firestore's Website") 
