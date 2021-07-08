@@ -19,13 +19,14 @@ The application uses [express](https://expressjs.com/ "expressjs's Website") ,
  and [docker](https://www.docker.com/ "Dockers's Website") .
 
 #### Running the App
-##### docker
-- Once the contents of this repository is pulled , one should set the environment variables in the `env.sample` file ,then run the app using `npm start`.
-If you will be running with docker, you can build the image  and run the container making sure an environment file is supplied to the docker daemon,
-you can also attach your own service config file and specify the name in the env  variable like `docker run --env-file ./env.sample ${imageName}`.
+- Pull reprository
 #### local
-- create a `.env` file using the `.env.sample` as a guide and fill the require environment variables
+- Create a `.env` file using the `.env.sample` as a guide and fill the require environment variables
 - `npm start`
+##### docker
+Build the image and run the container making sure an environment file is supplied to the docker daemon,
+you can also attach your own service config file and specify the name in the env  variable like `docker run --env-file ./env.sample ${imageName}`.
+
 
 #### Testing
 
